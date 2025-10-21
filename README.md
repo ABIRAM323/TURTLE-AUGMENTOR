@@ -33,7 +33,11 @@ To set up and run the application, execute the following commands in your termin
     ```bash
     cd TURTLE-AUGMENTOR
     ```
-4.  **Run the main application file:**
+4.  **Install the dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```    
+5.  **Run the main application file:**
     ```bash
     run python app.py
     ```
