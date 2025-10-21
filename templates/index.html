@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Augmentor</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--<img src="assets/logo.jpg" alt="Turtle Augmentor Splash" class="splash-image">-->
+        <h1>TURTLE AUGMENTOR</h1>
+        <p>Upload a PDF, preview augmented data, and download in your desired format.</p>
+
+        <div class="upload-section">
+            <input type="file" id="fileInput" accept=".pdf,.txt,.csv">
+            <button onclick="uploadFile()">Upload PDF</button>
+        </div>
+
+        <div class="preview-section">
+            <h2>PREVIEW AUGMENTED DATA</h2>
+            <div id="preview" class="preview-box"></div>
+        </div>
+
+        <div class="download-section">
+            <h2>DOWNLOAD DATA</h2>
+            <select id="formatSelect">
+                <option value="json">JSON</option>
+            </select>
+            <button id="downloadBtn" onclick="downloadFile()" disabled>Download</button>
+        </div>
+    </div>
+
+    <script src="static\js\script.js"></script>
+</body>
+
+</html>
