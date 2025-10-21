@@ -27,11 +27,11 @@ To set up and run the application, execute the following commands in your termin
     ```
 2.  **Clone the project repository:**
     ```bash
-    git clone repo url
+    git clone https://github.com/ABIRAM323/TURTLE-AUGMENTOR.git
     ```
 3.  **Navigate into the project directory:**
     ```bash
-    cd dir_name
+    cd TURTLE-AUGMENTOR
     ```
 4.  **Run the main application file:**
     ```bash
