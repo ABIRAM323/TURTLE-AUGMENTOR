@@ -251,3 +251,4 @@ zipp==3.21.0
 zstandard==0.25.0
 langchain==0.0.316
 lanchain_community==0.4
+sentencepiece==0.2.0
